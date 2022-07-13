@@ -24,7 +24,7 @@ pipeline {
                             sshCredentials: [
                                 username: "$USERNAME",
                                 encryptedPasspharse: "$USERPASS"
-                                ]
+                                ],
                                 transfers: [
                                     sshTransfer(
                                         sourceFiles: 'dist/trainSchedule.zip',
